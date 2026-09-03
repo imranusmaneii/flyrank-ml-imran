@@ -1,0 +1,17 @@
+{
+  "prepared_rows": 30000,
+  "declining_base_rate": 0.5420666666666667,
+  "refresh_candidates": 6575,
+  "precision_at_10": 0.6,
+  "precision_at_20": 0.45,
+  "precision_at_50": 0.44,
+  "precision_at_100": 0.38,
+  "rule": "score = impressions_90d * stale_90 * visible_500",
+  "stale_threshold_days": 90,
+  "visibility_threshold_impressions": 500,
+  "score_inputs": [
+    "days_since_last_update",
+    "impressions_90d"
+  ],
+  "label_used_in_score": false
+}
